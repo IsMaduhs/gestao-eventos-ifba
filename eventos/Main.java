@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Gestão de Eventos do IFBA - LP-I");
 
+        //System.out.println(e1.getNome());
         Evento e1 = new Evento("Semana Científica", "10/11/2026", "Auditório", 200);
         System.out.println(e1.resumo());
         Evento e2 = new Evento("Oficina de Gamemaker", "31/10/2026", "Mirante", 200);
